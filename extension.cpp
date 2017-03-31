@@ -20,7 +20,7 @@ namespace bluetooth {
     * Starts a custom sensor service. The handler must call ``setSensorTemperature`` 
     * to update the temperature sent to the service.
     */
-    //% block
+    //% blockId=bluetooth_startTemperatureSensorService block="start temperature sensor service"
     void startTemperatureSensorService(Action handler) {
         if (NULL != _pService) return;
 
