@@ -1,3 +1,28 @@
-# Contributing
+# bluetooth temperature sensor service
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+A generic Bluetooth service to expose the temperature read from a sensor
+
+## Usage
+
+This package allows to create a Bluetooth temperature sensor and provide the data from
+any custom sensor attached to the @boardname@. In fact, it can be used to stream any data!
+
+```blocks
+bluetooth.startTemperatureSensorService(() => {
+    bluetooth.setTemperatureSensorValue(input.lightLevel());
+})
+```
+
+## License
+
+MIT
+
+## Supported targets
+
+* for PXT/microbit
+(The metadata above is needed for package search.)
+
+```package
+bluetooth
+bluetooth-temperature-sensor
+```
