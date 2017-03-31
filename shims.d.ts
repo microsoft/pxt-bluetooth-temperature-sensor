@@ -11,7 +11,7 @@ declare namespace bluetooth {
     /**
      * Sets the current temperature value on the external temperature sensor
      */
-    //% block shim=bluetooth::setTemperatureSensorValue
+    //% blockId=bluetooth_setTemperatureSensorValue block="set temperature sensor value (°C) %temperature" shim=bluetooth::setTemperatureSensorValue
     function setTemperatureSensorValue(temperature: number): void;
 }
 

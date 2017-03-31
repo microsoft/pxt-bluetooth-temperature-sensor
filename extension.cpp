@@ -33,7 +33,7 @@ namespace bluetooth {
     /**
     * Sets the current temperature value on the external temperature sensor
     */
-    //% block
+    //% blockId=bluetooth_setTemperatureSensorValue block="set temperature sensor value (°C) %temperature"
     void setTemperatureSensorValue(int temperature) {
         if (NULL == _pService) return;
 
