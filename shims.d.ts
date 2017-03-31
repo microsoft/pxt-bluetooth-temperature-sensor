@@ -5,7 +5,7 @@ declare namespace bluetooth {
      * Starts a custom sensor service. The handler must call ``setSensorTemperature`` 
      * to update the temperature sent to the service.
      */
-    //% block shim=bluetooth::startTemperatureSensorService
+    //% blockId=bluetooth_startTemperatureSensorService block="start temperature sensor service" shim=bluetooth::startTemperatureSensorService
     function startTemperatureSensorService(handler: () => void): void;
 
     /**
