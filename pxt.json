@@ -1,6 +1,6 @@
 {
     "name": "bluetooth-temperature-sensor",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A generic Bluetooth service to expose the temperature read from a sensor.",
     "license": "MIT",
     "dependencies": {
