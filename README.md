@@ -13,6 +13,8 @@ bluetooth.startTemperatureSensorService(() => {
 })
 ```
 
+Then use the temperature charting from [Bitty data logger](http://www.bittysoftware.com/apps/bitty_data_logger.html) to visualize it.
+
 ## License
 
 MIT
