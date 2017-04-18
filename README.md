@@ -1,6 +1,6 @@
 # bluetooth temperature sensor service
 
-A generic Bluetooth service to expose the temperature read from a sensor
+A Bluetooth service to expose a temperature reading.
 
 ## Usage
 
