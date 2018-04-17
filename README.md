@@ -1,4 +1,4 @@
-# bluetooth temperature sensor service
+# bluetooth temperature sensor service [![Build Status](https://travis-ci.org/Microsoft/pxt-bluetooth-temperature-sensor.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-bluetooth-temperature-sensor)
 
 A Bluetooth service to expose a temperature reading.
 
